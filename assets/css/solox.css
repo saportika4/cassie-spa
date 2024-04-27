@@ -9537,7 +9537,7 @@ body.megamenu-popup-active .mobile-nav__content {
   }
 }
 .main-slider-two__bg {
-  position: absolute;
+  position: absolute; 
   top: 0;
   left: 0;
   right: 0;
@@ -9546,6 +9546,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
+  min-height: 100vh;
 }
 .main-slider-two__bg img {
   width: 100%;

@@ -630,7 +630,7 @@ h6 {
   display: inline-block;
   width: 30px;
   height: 4px;
-  background-color: #015055;
+  background-color: #00bac6;
   position: relative;
   overflow: hidden;
 }
@@ -2172,7 +2172,7 @@ h6 {
   margin-bottom: -60px;
   z-index: 10;
   background-color: #015055;
-  background-image: url(../images/shapes/contact-1-f-s-1.png);
+  /* background-image: url(../images/shapes/contact-1-f-s-1.png); */
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -9007,7 +9007,8 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .google-map__contact {
   overflow: hidden;
-  background-color: var(--solox-gray, #f9f6f1);
+  /* background-color: var(--solox-gray, #f9f6f1); */
+  background-color: #2b6265e6;
 }
 
 .contact-map {

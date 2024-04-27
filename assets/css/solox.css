@@ -1883,6 +1883,16 @@ h6 {
   transition: width 0.3s, height 0.3s, opacity 0.3s;
   z-index: 999991;
 }
+
+@media (max-width: 567px) {
+  .custom-cursor__cursor {
+    display: none;
+  }
+  .custom-cursor__cursor-two {
+    display: none;
+  }
+}
+
 .custom-cursor__hover {
   background-color: #015055;
   opacity: 0.4;
@@ -9547,8 +9557,24 @@ body.megamenu-popup-active .mobile-nav__content {
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
-  min-height: 94vh;
+  min-height: 100vh;
+  max-height: 100vh;
 }
+
+@media (max-width: 967px) {
+  .main-slider-two__bg {
+    min-height: 100vh;
+    max-height: 100vh;
+  }
+}
+
+@media (max-width: 567px) {
+  .main-slider-two__bg {
+    min-height: 94vh;
+    max-height: 94vh;
+  }
+}
+
 .main-slider-two__bg img {
   width: 100%;
   height: 100%;

@@ -15228,7 +15228,7 @@ body.boxed-wrapper .page-wrapper {
   margin-bottom: 44px;
 }
 .testimonials-four__ratings span:last-child {
-  color: var(--solox-text, #838184);
+  /* color: var(--solox-text, #838184); */
 }
 .testimonials-four__quote {
   line-height: 28px;

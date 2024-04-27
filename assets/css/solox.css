@@ -11213,7 +11213,7 @@ body.megamenu-popup-active .mobile-nav__content {
   background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
 }
 .service-one__item__title a:hover {
-  color: #015055;
+  color: #fff;
   background-size: 100% 1px;
 }
 .service-one__info {

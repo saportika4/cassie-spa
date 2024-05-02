@@ -2005,6 +2005,7 @@ h6 {
   color: #F4BDBD;
   font-weight: 500;
   line-height: 30px;
+  padding-bottom: 10px;
 }
 .footer-widget__info li a, .footer-widget__links li a {
   color: inherit;
@@ -16608,7 +16609,7 @@ body.boxed-wrapper .page-wrapper {
 .footer-resp{
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 @media(max-width:800px) {

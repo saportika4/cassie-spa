@@ -9506,7 +9506,7 @@ body.megamenu-popup-active .mobile-nav__content {
   left: 0;
   right: 0;
   margin: auto;
-  bottom: 50px;
+  bottom: 10px;
   z-index: 2;
 }
 .main-slider-two__carousel .owl-dots .owl-dot {
@@ -10784,7 +10784,7 @@ body.megamenu-popup-active .mobile-nav__content {
   font-size: 18px;
   line-height: 30px;
   color: var(--solox-white, #fff);
-  padding: 52px 60px 55px;
+  padding: 23px 50px 20px;
 }
 .about-two__info__content {
   position: relative;

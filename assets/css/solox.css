@@ -9510,6 +9510,13 @@ body.megamenu-popup-active .mobile-nav__content {
   bottom: 28px;
   z-index: 2;
 }
+
+@media (max-width: 600px) {
+  .main-slider-two__carousel .owl-dots {
+   display: none;
+  }
+}
+
 .main-slider-two__carousel .owl-dots .owl-dot {
   display: inline-block;
   margin: 0 3px;
@@ -16596,14 +16603,57 @@ body.boxed-wrapper .page-wrapper {
 }
 
 .whatsapp-logo {
-  max-width: 65px;
+  max-width: 60px;
 }
 
 @media(max-width:500px) {
   .whatsapp-logo {
       max-width: 45px;
   }
+  .booking-logo {
+      max-width: 55px;
+  }
 
+}
+
+.booking{
+  position: fixed;
+  bottom: 90px;
+  left: 22px;
+  z-index: 999;
+}
+
+.booking-logo {
+  max-width: 70px;
+  font-size: 70px;
+  color: #dfb6b6;
+  animation: shake 0.4s infinite alternate;
+  transition: transform 0.3s ease-in-out;
+}
+
+@keyframes shake {
+  0% {
+      transform: translateX(-5px);
+  }
+  100% {
+      transform: translateX(5px);
+  }
+}
+
+.booking-logo:active {
+  animation: pulse 0.5s ease-out;
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.2);
+  }
+  100% {
+      transform: scale(1);
+  }
 }
 
 /* .footer-resp{

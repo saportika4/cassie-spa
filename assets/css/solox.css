@@ -16648,14 +16648,14 @@ body.boxed-wrapper .page-wrapper {
 
 @media(max-width:500px) {
   .whatsapp-logo {
-      max-width: 45px;
+      max-width: 55px;
   }
   .booking-logo {
-      max-width: 45px;
+      max-width: 55px;
   }
 
   .booking{
-    bottom: 70px;
+    bottom: 80px;
   }
 
 }
